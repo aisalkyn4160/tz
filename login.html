@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font/fontStyle.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="grid-container">
+    <div class="picBlock"></div>
+    <div class="formBlock">
+      <form class="form" action="#">
+        <ul>
+          <li class="formInp">
+            <label class="name" for="name">
+              Name
+            </label>
+            <input class="inp" type="text" placeholder="Luke Skywalker" id='name'>
+
+          </li>
+          <li class="formInp formInp__gender">
+            <span class="title__check">Gender</span>
+            <div class="gender">
+
+              <label class="radio">
+                <input type="radio" value="male" name="gender">
+                Male
+                <span class="male"></span>
+              </label>
+              <label class="radio">
+                <input type="radio" value="female" name="gender">
+                Female
+                <span class="female"></span>
+              </label>
+
+            </div>
+          </li>
+          <li class="formInp">
+            <label class="name" for="birthday">
+              Date of Birth
+            </label>
+            <input class="inp" type="text" placeholder="May 25, 1977" id='birthday'>
+
+          </li>
+          <li class="formInp">
+            <label class="Email" for="Email">
+              Email
+            </label>
+            <input class="inp" type="Email" placeholder="lukeskywalker@galaxy.com" id='Email'>
+
+          </li>
+          <li class="formInp">
+            <label class="city" for="city">
+              City
+            </label>
+            <input class="inp" type="text" placeholder="Moisture Farm" id='city'>
+
+          </li>
+          <li class="formInp">
+            <label class="Country" for="Country">
+              Country
+            </label>
+            <input class="inp" type="text" placeholder="Tatooine" id='Country'>
+
+          </li>
+          <li class="formInp subscription">
+            <span class="title__check">Subscription</span>
+            <div class="category">
+              <button class="btn bronze">Bronze</button>
+              <button class="btn silver">Silver</button>
+              <button class="btn gold">Gold</button>
+            </div>
+          </li>
+
+          <div class="footBtn">
+            <button class="footBtn__btn cancelBtn">Cancel</button>
+            <button class="footBtn__btn saveBtn">Save</button>
+          </div>
+        </ul>
+      </form>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
